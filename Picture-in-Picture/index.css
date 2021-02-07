@@ -1,0 +1,35 @@
+html{
+   box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#enable-pip-btn{
+    height: 50px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+#enable-pip-btn:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+#enable-pip-btn:active{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
