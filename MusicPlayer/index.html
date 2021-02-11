@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Image container -->
+    <div class="player-container">
+        <div class="img-container">
+            <img src="./img/img-1.jpg" id="track-image" alt="track-image">
+        </div>
+        <h2 id="track-heading">Someone's looking</h2>
+        <h3 id="artist-heading">Tupac</h3>
+        <audio src="./music/audio-1.mp3" hidden id="audio-element"></audio>
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="start-time">0:00</span>
+                <span id="end-time">2:01</span>
+            </div>
+        </div>
+        <div class="audio-controls">
+            <i class="fas fa-backward" id="prev-btn" title="Previous"></i>
+            <i class="fas fa-play main-button" id="play-btn" title="Play"></i>
+            <i class="fas fa-forward" id="next-btn" title="Next"></i>
+        </div>
+    </div>
+    
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
